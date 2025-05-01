@@ -39,7 +39,7 @@
   }
   
   .back-button {
-    background-color: #5c3c10;
+    background-color: rgb(64, 71, 179);
     color: white;
     padding: 0.8rem 1.5rem;
     border: none;
@@ -51,5 +51,43 @@
   }
   
   .back-button:hover {
-    background-color: #3a250a;
+    background-color: rgb(30, 140, 204);
+;
   }
+  /* Tablet: narrow down container and font sizes */
+@media (max-width: 768px) {
+  .success-content {
+    max-width: 90%;
+    padding: 1.5rem;
+  }
+
+  .success-image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+  }
+
+  .success-content h1 {
+    font-size: 1.75rem;
+  }
+
+  .success-content h2 {
+    font-size: 1.25rem;
+  }
+  .back-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 480px) {
+  .back-button {
+    display: block;          
+    width: 100%;              
+    max-width: 300px;        
+    margin: 0.5rem auto;     
+    padding: 0.8rem 0;       
+    font-size: 1rem;         
+    box-sizing: border-box;   
+  }
+}
+

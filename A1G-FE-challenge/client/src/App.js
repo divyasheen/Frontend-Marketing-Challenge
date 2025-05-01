@@ -97,7 +97,7 @@ const App = () => {
                 onClick={() => navigate('/checkout')}
                 className="checkout-btn"
               >
-                Get your order ({cart.reduce((sum, item) => sum + item.quantity, 0)})
+                Grab your order ({cart.reduce((sum, item) => sum + item.quantity, 0)})
               </button>
             )}
           </div>
