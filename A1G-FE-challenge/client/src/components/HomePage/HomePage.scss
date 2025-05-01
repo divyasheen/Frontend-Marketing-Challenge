@@ -1,0 +1,13 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+
+.home-container {
+  @include flex-center;
+  height: 100vh;
+  background: url('https://static.vecteezy.com/system/resources/previews/002/045/877/large_2x/fancy-bakery-shop-with-trees-and-bike-vector.jpg') center/cover no-repeat;
+  position: relative;
+}
+
+.shop-button {
+  @include hanging-sign($rope-color, $btn-primary-bg);
+}
